@@ -1,0 +1,349 @@
+
+body{background-color: rgb(207, 199, 199);}
+*{
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+
+ }
+
+ header {
+
+    background-color: rgba(241, 14, 25, 0.743);
+
+    width: 100%;
+
+    position: fixed;
+
+    z-index: 999;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 100px;
+
+ 
+
+    }
+
+ 
+
+ #contact {
+
+    position: absolute;
+
+    top: 25px;
+
+    right: 25px;
+
+}
+
+ 
+
+ a{text-decoration: none;
+
+color: black;}
+
+ 
+
+ 
+
+                    /* ///search bal//// */
+
+.redfamily {
+
+    color: red;
+
+}
+
+.search-box,.close-icon,.search-wrapper {
+
+    position: relative;
+
+    padding: 10px;
+
+}
+
+.search-wrapper {
+
+    width: 500px;
+
+    margin: auto;
+
+    margin-top: 50px;
+
+    margin-top: -20px;
+
+}
+
+.search-box {
+
+    width: 80%;
+
+    border: 1px solid #ccc;
+
+  outline: 0;
+
+  border-radius: 15px;
+
+  margin-left: -450px;
+
+  margin-top: 25px;
+
+ 
+
+}
+
+.search-box:focus {
+
+    box-shadow: 0 0 15px 5px #b0e0ee;
+
+    border: 2px solid #bebede;
+
+}
+
+.close-icon {
+
+    border:1px solid transparent;
+
+    background-color: transparent;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+  outline: 0;
+
+  cursor: pointer;
+
+}
+
+.close-icon:after {
+
+    content: "X";
+
+    display: block;
+
+    width: 15px;
+
+    height: 15px;
+
+    position: absolute;
+
+    background-color: #FA9595;
+
+    z-index:1;
+
+    right: 35px;
+
+    top: 0;
+
+    bottom: 0;
+
+    margin: auto;
+
+    padding: 2px;
+
+    border-radius: 50%;
+
+    text-align: center;
+
+    color: white;
+
+    font-weight: normal;
+
+    font-size: 12px;
+
+    box-shadow: 0 0 2px #E50F0F;
+
+    cursor: pointer;
+
+}
+
+.search-box:not(:valid) ~ .close-icon {
+
+    display: none;
+
+}
+
+ 
+
+                            /* .... */
+
+
+img {
+ width: 1570px;
+ height: 550px;
+ 
+   margin-top: 10px;
+position: relative;}
+
+
+/*//  the square   //*/
+
+.square {
+    width: 370px; 
+    height: 370px; 
+    background-color: #feffff;
+    margin:   40px;
+
+padding: 10px;
+border-radius: 10px;}
+
+
+
+.square1{
+    width: 370px; 
+    height: 370px; 
+    background-color: #feffff;
+    margin:40px;
+   left: 550px;
+   top: -1640px;
+position:relative;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+.square2{
+    width: 370px; 
+    height: 370px; 
+    background-color: #feffff;
+    margin:40px;
+   left: 1100px;
+   top: -3280px;
+position:relative;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+        /*...*/
+
+        /*  galaxy phone image  */
+
+  #a1{width: 150px;
+height: 220px;
+margin-top:-4850px;
+position: absolute;
+left: 40px;}
+
+#a2{width: 160px;
+    height: 230px;
+    margin-top:-4850px;
+    position: absolute;
+    left: 590px;}
+
+    
+#a3{width: 110px;
+    height: 210px;
+    margin-top:-4850px;
+    position: absolute;
+    left: 1165px;}
+
+    #z1{width: 140px;
+        height: 220px;
+        margin-top:-4450px;
+        position: absolute;
+        left: 40px;}
+
+        
+    #z2{width: 130px;
+        height: 220px;
+        margin-top:-4450px;
+        position: absolute;
+        left: 605px;}
+
+            
+    #z3{width: 130px;
+        height: 240px;
+        margin-top:-4450px;
+        position: absolute;
+        left: 1160px;}
+
+
+    #s1{width: 140px;
+            height: 220px;
+            margin-top:-4040px;
+            position: absolute;
+            left: 40px;}
+
+        
+    #s2{width: 120px;
+        height: 220px;
+        margin-top:-4040px;
+        position: absolute;
+        left: 605px;}
+
+      #s3{width: 150px;
+            height: 220px;
+            margin-top:-4040px;
+            position: absolute;
+            left: 1150px;}
+
+
+    
+     #s4{width: 140px;
+        height: 220px;
+         margin-top:-3650px;
+         position: absolute;
+        left: 35px;}
+
+
+        #s5{width: 130px;
+            height: 200px;
+             margin-top:-3623px;
+             position: absolute;
+            left: 610px;}
+
+            #s6{width: 120px;
+                height: 200px;
+                 margin-top:-3623px;
+                 position: absolute;
+                left: 1160px;}
+
+
+                 /* end  galaxy phone image  */
+
+
+                #p1{font-size: x-large;
+                font-family:Arial, Helvetica, sans-serif;
+            padding-left: 140px;
+        padding-top: 10px;}
+
+
+        #p2{font-size: x-large;
+            font-family:Arial, Helvetica, sans-serif;
+        padding-left: 140px;
+    padding-top: 10px;}
+
+
+        #p3{font-size: x-large;
+            font-family:Arial, Helvetica, sans-serif;
+        padding-left: 140px;
+    padding-top: 10px;}
+
+
+    #p4{font-size: x-large;
+        font-family:Arial, Helvetica, sans-serif;
+    padding-left: 140px;
+padding-top: 10px;}
+
+
+
+.square4{
+    width: 1580px; 
+    height: 350px; 
+    background-color: rgb(41, 37, 37);
+   top: -3320px;
+position:relative;}
